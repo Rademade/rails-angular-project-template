@@ -1,5 +1,5 @@
 {
-  "name": "rails-angular-project-template",
+  "name": "App",
   "dependencies": {
     "lodash": "latest",
     "angular": "latest",

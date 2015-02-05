@@ -1,5 +1,5 @@
-app.factory 'User', ['RailsAngularProjectTemplate', (RailsAngularProjectTemplate) ->
+app.factory 'User', ['App', (App) ->
 
-  class User extends RailsAngularProjectTemplate
+  class User extends App
     @configure url: '/users', name: 'users'
 ]

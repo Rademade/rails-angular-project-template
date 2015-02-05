@@ -1,11 +1,11 @@
-angular.module("appResource", [ "rails" ]).factory "RailsAngularProjectTemplate", [
+angular.module("appResource", [ "rails" ]).factory "App", [
   "RailsResource",
   (RailsResource) ->
 
-    class RailsAngularProjectTemplate extends RailsResource
+    class App extends RailsResource
 
-    RailsAngularProjectTemplate.resourceUrl = (previous)->
+    App.resourceUrl = (previous)->
       "/api" + RailsResource.resourceUrl.apply @, arguments
 
-    RailsAngularProjectTemplate
+    App
 ]
