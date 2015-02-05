@@ -1,0 +1,9 @@
+{
+  "name": "rails-angular-project-template",
+  "dependencies": {
+    "lodash": "latest",
+    "angular": "latest",
+    "angular-sanitize": "latest",
+    "angular-ui-router": "latest"
+  }
+}

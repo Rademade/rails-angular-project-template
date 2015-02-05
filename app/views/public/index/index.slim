@@ -1,0 +1,9 @@
+doctype html
+html(ng-app="app")
+  head
+    title railsAngularProjectTemplate
+    = stylesheet_link_tag 'manifest', media: 'all'
+    = javascript_include_tag 'manifest'
+    = csrf_meta_tags
+  body
+    div(ui-view)
