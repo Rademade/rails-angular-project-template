@@ -6,13 +6,13 @@ app.config([
     .state 'public',
       abstract: true,
       url: '',
-      templateUrl: 'layout.html',
+      templateUrl: 'layouts/index.html',
       controller: 'layout'
 
     .state 'public.index',
       url: '/',
-      templateUrl: 'pages/index.html'
-
+      templateUrl: 'views/index.html'
+      controller: 'index'
 
     $urlRouterProvider.otherwise '/'
 

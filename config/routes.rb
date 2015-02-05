@@ -7,10 +7,8 @@ Rails.application.routes.draw do
 
   end
 
-  scope module: :api, defaults: {format: :json} do
-    scope 'api' do
-      resources :users, :only => [:index]
-    end
+  scope :api, module: :api, defaults: {format: :json} do
+    resources :users, :only => [:index]
   end
 
   scope :module => :public do
