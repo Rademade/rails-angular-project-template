@@ -1,4 +1,4 @@
-class Api::Applicationontroller < ApplicationController
+class Api::ApplicationController < ApplicationController
 
 	respond_to :json
 
